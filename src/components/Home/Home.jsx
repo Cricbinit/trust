@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <div>
       {/* Hero Slider */}
-      <div className="w-full h-screen bg-gray-900">
+      <div className="w-full h-screen bg-black flex justify-center items-center">
         <SliderComponent />
       </div>
 

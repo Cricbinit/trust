@@ -2,7 +2,7 @@ import React from "react";
 
 export default function IdeasSection() {
   return (
-    <div className="bg-gray-800 text-white p-8 rounded-xl max-w-7xl mx-auto mt-10">
+    <div className="bg-black text-white p-8 rounded-xl max-w-7xl mx-auto mt-10">
       {/* Header */}
       <div className="flex justify-between items-start mb-6">
         <div>

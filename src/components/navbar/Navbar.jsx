@@ -218,7 +218,7 @@ const Navbar = () => {
                         </ul>
 
                         {/* Optional Mobile Search */}
-                        <div className="mobile_search mt-6 flex items-center bg-gray-800 px-3 py-1 rounded-lg">
+                        <div className="mobile_search mt-6 flex items-center bg-black px-3 py-1 rounded-lg">
                           <FaSearch className="search-icon" size={18} />
                           <input
                             type="text"

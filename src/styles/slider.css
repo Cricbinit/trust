@@ -3,3 +3,4 @@
 .slick-dots li.slick-active div {
   @apply bg-blue-400 opacity-100;
 }
+
