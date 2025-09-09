@@ -18,10 +18,10 @@ const SliderComponent = () => {
   };
 
   return (
-    <div className="relative w-[90%] h-[70vh] md:h-[90vh] ">
+    <div className="relative w-[90%] h-[90vh] ">
       <Slider {...settings}>
         {/* Slide 1 */}
-        <div className="relative w-full h-[90vh] md:h-[90vh] bg-yellow-400">
+        <div className="relative w-full h-[90vh]  bg-yellow-400">
           {/* Rounded container */}
           <div className="relative w-full h-full rounded-t-[100px] rounded-b-[100px] overflow-hidden">
             <img
@@ -39,7 +39,7 @@ const SliderComponent = () => {
         </div>
 
         {/* Slide 2 */}
-        <div className="relative w-full h-[90vh] md:h-[90vh] bg-yellow-400">
+        <div className="relative w-full h-[90vh] bg-yellow-400">
           {/* Rounded container */}
           <div className="relative w-full h-full rounded-t-[100px] rounded-b-[100px] overflow-hidden">
             <img
@@ -57,7 +57,7 @@ const SliderComponent = () => {
         </div>
 
         {/* Slide 3 */}
-        <div className="relative w-full h-[90vh] md:h-[90vh] bg-yellow-400">
+        <div className="relative w-full h-[90vh]  bg-yellow-400">
           {/* Rounded container */}
           <div className="relative w-full h-full rounded-t-[100px] rounded-b-[100px] overflow-hidden">
             <img

@@ -10,7 +10,7 @@ export default function Footer() {
         
         {/* Left Side */}
         <div>
-          <h1 className="text-3xl font-serif font-bold">Gates Foundation</h1>
+          <h1 className="md:text-4xl font-semibold tracking-widest text-3xl">Gates Foundation</h1>
         </div>
 
         {/* Right Side */}

@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import { FaChevronDown, FaSearch, FaBars, FaTimes } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
 import "../../styles/navbar.css"; // external CSS
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [openDropdown, setOpenDropdown] = useState(null); // desktop dropdown
@@ -33,7 +34,7 @@ const Navbar = () => {
       <div className="container">
         {/* Logo */}
         <div className="logo">
-          <a href="#">LOGO</a>
+          <Link to='/'>LOGO</Link>
         </div>
 
         {/* Desktop Nav Items */}
@@ -65,7 +66,7 @@ const Navbar = () => {
                         <div>
                           <h3>About Us</h3>
                           <p>Learn about our mission and values.</p>
-                          <a href="#">More about us</a>
+                         <Link to='/aboutus' onClick={()=>setOpenDropdown(true)}>About Us</Link>
                         </div>
                         <div>
                           <a href="#">Our story</a>

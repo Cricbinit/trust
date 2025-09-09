@@ -13,7 +13,7 @@ export default function IdeasSection() {
         </div>
         <a
           href="#"
-          className="text-sm text-blue-400 hover:underline"
+          className="text-sm text-yellow-400 hover:underline"
         >
           Learn more about Ideas →
         </a>
@@ -66,7 +66,7 @@ export default function IdeasSection() {
               />
               <button
                 type="submit"
-                className="bg-gray-800 text-white p-2 rounded hover:bg-gray-700"
+                className="bg-black cursor-pointer text-white p-2 rounded hover:bg-gray-700"
               >
                 Subscribe
               </button>
