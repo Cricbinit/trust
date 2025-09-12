@@ -54,7 +54,7 @@ export default function Navbar() {
           </Link>
           <Link
             to="/donate"
-            className="bg-yellow-400 text-black px-5 py-2 rounded-full font-bold hover:bg-yellow-500 transition"
+            className="bg-yellow-400 text-black px-5 py-2 rounded font-bold hover:bg-yellow-500 transition"
           >
             DONATE
           </Link>

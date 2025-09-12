@@ -20,7 +20,7 @@ export default function AboutFoundation() {
   return (
     <section className="bg-[#3b2416] text-white py-12 px-6 md:px-16">
       {/* Main Content Row */}
-      <div className="grid md:grid-cols-2 gap-10 items-center">
+      <div className="grid md:grid-cols-2 gap-10 items-start">
         {/* Main Image (static) */}
         <div className="w-full h-[350px] rounded-lg overflow-hidden">
           <img
@@ -32,10 +32,10 @@ export default function AboutFoundation() {
 
         {/* Text Content */}
         <div className="flex flex-col justify-center">
-          <h2 className="text-yellow-400 text-2xl font-bold mb-4">
+          <h2 className="text-yellow-400 text-2xl font-bold mb-4 lg:text-4xl">
             About Dambal Foundation
           </h2>
-          <p className="text-gray-200 leading-relaxed text-sm md:text-base">
+          <p className="text-gray-200 leading-relaxed text-sm md:text-lg">
             It amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim
             veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex

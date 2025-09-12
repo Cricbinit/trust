@@ -15,13 +15,13 @@ export default function TeamFoundation() {
 
   return (
     <section className="bg-[#2b1912] text-white py-12 px-6 md:px-16">
-      <div className="grid md:grid-cols-2 gap-10 items-center">
+      <div className="grid md:grid-cols-2 gap-10 items-start">
         {/* Left Text Section */}
         <div>
-          <h2 className="text-yellow-400 text-2xl md:text-3xl font-bold mb-6">
+          <h2 className="text-yellow-400 text-2xl md:text-4xl font-bold mb-6">
             Team Dambal Foundation
           </h2>
-          <p className="text-gray-200 leading-relaxed text-sm md:text-base">
+          <p className="text-gray-200 leading-relaxed text-sm md:text-lg">
             it amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim
             veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex

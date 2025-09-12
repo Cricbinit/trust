@@ -1,5 +1,11 @@
 import React, { useState, useEffect } from "react";
-import { FaPhoneAlt, FaEnvelope, FaYoutube, FaInstagram, FaTwitter } from "react-icons/fa";
+import {
+  FaPhoneAlt,
+  FaEnvelope,
+  FaYoutube,
+  FaInstagram,
+  FaTwitter,
+} from "react-icons/fa";
 import Img1 from "../assets/doctor.jpg";
 import Img2 from "../assets/laboratory.jpg";
 import Img3 from "../assets/surgery.jpg";
@@ -10,7 +16,7 @@ const slides = [
   { id: 3, img: Img3 },
 ];
 
-let  HeroSlider =() =>{
+let HeroSlider = () => {
   const [current, setCurrent] = useState(0);
 
   // Autoplay fade
@@ -25,13 +31,13 @@ let  HeroSlider =() =>{
     <div className="relative w-full h-screen overflow-hidden bg-black">
       {/* Social Icons + Vertical Line */}
       <div className="absolute left-4 top-1/2 -translate-y-1/2 flex flex-col items-center gap-6 text-white text-xl z-20">
-        <div className="h-12 w-[1px] bg-white"></div>
-        <FaPhoneAlt />
-        <FaEnvelope />
-        <FaYoutube />
-        <FaInstagram />
-        <FaTwitter />
-        <div className="h-12 w-[1px] bg-white"></div>
+        <div className="lg:h-26 lg:w-[2px] h-12 w-[1px] bg-white"></div>
+        <FaPhoneAlt className="lg:text-2xl cursor-pointer" />
+        <FaEnvelope className="lg:text-2xl cursor-pointer" />
+        <FaYoutube className="lg:text-2xl cursor-pointer" />
+        <FaInstagram className="lg:text-2xl cursor-pointer" />
+        <FaTwitter className="lg:text-2xl cursor-pointer" />
+        <div className="lg:h-26 lg:w-[2px] h-12 w-[1px] bg-white"></div>
       </div>
 
       {/* Slides with Fade */}
@@ -43,8 +49,12 @@ let  HeroSlider =() =>{
               i === current ? "opacity-100 z-10" : "opacity-0 z-0"
             }`}
           >
-            <img src={slide.img} alt="" className="w-full h-full object-cover " />
-              <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-transparent to-black/70"></div>
+            <img
+              src={slide.img}
+              alt=""
+              className="w-full h-full object-cover "
+            />
+            <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-transparent to-black/70"></div>
 
             {/* Two horizontal lines */}
             <div className="absolute left-1/4 right-1/4 top-1/3 h-[2px] bg-white"></div>
@@ -54,19 +64,23 @@ let  HeroSlider =() =>{
       </div>
 
       {/* Dots Right */}
+      {/* Dots Right */}
+      {/* Dots Right */}
       <div className="absolute right-6 top-1/2 -translate-y-1/2 flex flex-col gap-3 z-20">
         {slides.map((_, i) => (
           <button
             key={i}
             onClick={() => setCurrent(i)}
-            className={`w-2 h-6 rounded-full ${
-              current === i ? "bg-white" : "bg-gray-400"
+            className={`transition-all duration-300 ease-in-out rounded-2xl ${
+              current === i
+                ? "w-[8px] h-17 bg-white shadow-lg"
+                : "w-[10px] h-[10px] bg-gray-400 opacity-70"
             }`}
           />
         ))}
       </div>
     </div>
   );
-}
+};
 
-export default HeroSlider
+export default HeroSlider;

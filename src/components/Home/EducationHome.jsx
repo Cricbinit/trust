@@ -21,11 +21,11 @@ export default function EducationHome() {
     <div className="flex flex-col md:flex-row items-center gap-8 p-8 bg-[#2b1b12] text-white">
       {/* Left: Text */}
       <div className="w-full md:w-1/2 flex flex-col justify-center">
-        <h2 className="text-xl md:text-2xl font-semibold text-yellow-500 mb-4">
+        <h2 className="text-xl md:text-4xl font-semibold text-yellow-500 mb-4">
           Education
         </h2>
         {readmore ? (
-          <p className="text-gray-200 leading-relaxed mb-6">
+          <p className="text-gray-200 leading-relaxed mb-6 lg:text-xl">
             it amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim
             veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
@@ -35,7 +35,7 @@ export default function EducationHome() {
             officia deserunt mollit anim id est laborum.
           </p>
         ) : (
-          <p>
+          <p className="text-gray-200 leading-relaxed mb-6 lg:text-xl">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum eum
             accusamus quam tempore maiores ab, debitis sit eaque, minus, dolorum
             ipsum nobis delectus! Id corporis dolorem obcaecati in architecto
