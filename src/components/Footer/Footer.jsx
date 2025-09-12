@@ -15,11 +15,11 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-6 md:px-5 flex flex-col md:flex-row justify-between items-start md:items-center ">
         {/* Left Side */}
         <div>
-          <h1 className="md:text-5xl font-semibold tracking-widest text-3xl text-yellow-500">
+          <h1 className="md:text-4xl font-semibold tracking-widest text-3xl text-yellow-500 lg:text-5xl">
             Gates Foundation
           </h1>
         </div>
-        <div className=" border-amber-400 md:h-[320px] md:border-2 "></div>
+        <div className=" border-amber-400 lg:h-[320px] lg:border-2 "></div>
         {/* Right Side */}
         <div className="flex flex-col gap-6 text-sm max-w-xl">
           <p className="leading-relaxed pt-3">
