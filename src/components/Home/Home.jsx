@@ -8,6 +8,7 @@ import ProfileSection from './ProfileSection'
 import EducationHome from './EducationHome'
 import HealthCareHome from './HealthCareHome'
 import Footer from '../Footer/Footer'
+import "../../index.css"
 
 const Home = () => {
   return (

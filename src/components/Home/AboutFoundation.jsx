@@ -14,29 +14,26 @@ import Img9 from "../../assets/asset 18.jpeg";
 import Img10 from "../../assets/asset 17.jpeg";
 import Img11 from "../../assets/asset 72.jpeg";
 
-
 export default function AboutFoundation() {
   // Random placeholder images (Pixabay)
   const images = [Img1, Img2, Img3, Img4, Img5, Img6, Img7, Img8, Img9, Img10];
-
-
 
   return (
     <section className="bg-[#3b2416] text-white py-12 px-6 md:px-16">
       {/* Main Content Row */}
       <div className="grid md:grid-cols-2 gap-10 items-start  h-[90vh]">
         {/* Main Image (static) */}
-        <div className="w-full h-full rounded-lg overflow-hidden">
+        <div className="w-full h-auto rounded-lg overflow-hidden flex justify-center">
           <img
             src={Img11}
             alt="main-img"
-            className="w-[700px] h-[500px] object-cover rounded-lg"
+            className="w-full md:w-[700px] md:h-[500px] h-auto object-cover rounded-lg"
           />
         </div>
 
         {/* Text Content */}
-        <div className="flex flex-col justify-center">
-          <h2 className="text-yellow-400 text-2xl font-bold mb-4 lg:text-4xl">
+        <div className="flex flex-col justify-center ">
+          <h2 className="text-yellow-400 text-sm font-bold  lg:text-4xl">
             About Dambal Foundation
           </h2>
           <p className="text-gray-200 leading-relaxed text-sm md:text-lg">
@@ -46,9 +43,14 @@ export default function AboutFoundation() {
             ea commodo consequat. Duis aute irure dolor in reprehenderit in
             voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum.
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt iure sunt, veritatis suscipit assumenda sed repellat labore consequuntur laudantium, tempora quia distinctio officiis. Eos deleniti rem minima possimus debitis quod!
-            Id odit possimus obcaecati nulla, quisquam pariatur consequatur officia quia? Beatae et, illo distinctio incidunt maiores molestias! Doloremque porro quibusdam est possimus itaque explicabo, voluptates ducimus autem quis amet. Nostrum!
+            officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit,
+            amet consectetur adipisicing elit. Nesciunt iure sunt, veritatis
+            suscipit assumenda sed repellat labore consequuntur laudantium,
+            tempora quia distinctio officiis. Eos deleniti rem minima possimus
+            debitis quod! Id odit possimus obcaecati nulla, quisquam pariatur
+            consequatur officia quia? Beatae et, illo distinctio incidunt
+            maiores molestias! Doloremque porro quibusdam est possimus itaque
+            explicabo, voluptates ducimus autem quis amet. Nostrum!
           </p>
         </div>
       </div>

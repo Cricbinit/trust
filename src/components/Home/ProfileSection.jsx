@@ -12,7 +12,7 @@ export default function ProfileSection() {
   return (
     <div className="flex justify-center items-center min-h-screen bg-[#fdf8f0]">
       {/* Inner container */}
-      <div className="flex flex-col md:flex-row justify-center items-center md:items-start gap-6 md:gap-12 p-6 md:p-12 ">
+      <div className="flex flex-col md:flex-row justify-center items-center md:items-center gap-6 md:gap-12 p-6 md:p-12 ">
         {/* Left: Video Section */}
         <div className="w-full md:w-1/2 relative overflow-hidden rounded-lg">
           {!isPlaying ? (
@@ -52,7 +52,7 @@ export default function ProfileSection() {
         </div>
 
         {/* Right: Text */}
-        <div className="w-full md:w-1/2 h-[450px] flex justify-start items-start flex-col">
+        <div className="w-full md:w-1/2 h-[450px] flex justify-center items-start flex-col">
           <h2 className="text-2xl md:text-5xl font-serif mb-4">
             Siddharth Dambal
           </h2>
