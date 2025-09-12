@@ -27,7 +27,7 @@ export default function HealthCareHome() {
   };
 
   return (
-    <div className="flex flex-col md:flex-row gap-8 p-8 bg-[#2b1b12] text-white justify-start">
+    <div className="flex flex-col md:flex-row gap-8 p-8 bg-[#2b1b12] text-white justify-start lg:py-20">
       <div className="w-full md:w-1/2 relative">
         <Swiper
           modules={[Autoplay, EffectFade]}
@@ -39,7 +39,7 @@ export default function HealthCareHome() {
           {images.map((img, idx) => (
             <SwiperSlide key={idx}>
               <div
-                className="w-[300px] h-[300px] md:w-[450px] md:h-[450px] mx-auto rounded-lg bg-center bg-cover bg-no-repeat transition-transform duration-500 scale-95"
+                className="w-[300px] h-[300px] md:w-[550px] md:h-[550px] mx-auto rounded-lg bg-center bg-cover bg-no-repeat transition-transform duration-500 scale-95"
                 style={{ backgroundImage: `url(${img})` }}
               />
             </SwiperSlide>

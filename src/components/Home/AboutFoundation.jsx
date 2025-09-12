@@ -24,13 +24,13 @@ export default function AboutFoundation() {
   return (
     <section className="bg-[#3b2416] text-white py-12 px-6 md:px-16">
       {/* Main Content Row */}
-      <div className="grid md:grid-cols-2 gap-10 items-start">
+      <div className="grid md:grid-cols-2 gap-10 items-start  h-[90vh]">
         {/* Main Image (static) */}
-        <div className="w-full h-[350px] rounded-lg overflow-hidden">
+        <div className="w-full h-full rounded-lg overflow-hidden">
           <img
             src={Img11}
             alt="main-img"
-            className="w-full h-full object-cover rounded-lg"
+            className="w-[700px] h-[500px] object-cover rounded-lg"
           />
         </div>
 
@@ -47,6 +47,8 @@ export default function AboutFoundation() {
             voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
             officia deserunt mollit anim id est laborum.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt iure sunt, veritatis suscipit assumenda sed repellat labore consequuntur laudantium, tempora quia distinctio officiis. Eos deleniti rem minima possimus debitis quod!
+            Id odit possimus obcaecati nulla, quisquam pariatur consequatur officia quia? Beatae et, illo distinctio incidunt maiores molestias! Doloremque porro quibusdam est possimus itaque explicabo, voluptates ducimus autem quis amet. Nostrum!
           </p>
         </div>
       </div>

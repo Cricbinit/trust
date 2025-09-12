@@ -25,7 +25,7 @@ export default function EducationHome() {
   };
 
   return (
-    <div className="flex flex-col md:flex-row items-start gap-8 p-8 bg-[#2b1b12] text-white ">
+    <div className="flex flex-col md:flex-row items-start gap-8 p-8 bg-[#2b1b12] text-white  lg:py-22">
       {/* Left: Text */}
       <div className="w-full md:w-1/2 flex flex-col justify-center mt-2.5">
         <h2 className="text-xl md:text-4xl font-semibold text-yellow-500 mb-4">
@@ -70,7 +70,7 @@ export default function EducationHome() {
           {images.map((img, idx) => (
             <SwiperSlide key={idx}>
               <div
-                className="w-[300px] h-[300px] md:w-[450px] md:h-[450px] mx-auto rounded-lg bg-center bg-cover bg-no-repeat transition-transform duration-500 scale-95"
+                className="w-[300px] h-[300px] md:w-[550px] md:h-[550px] mx-auto rounded-lg bg-center bg-cover bg-no-repeat transition-transform duration-500 scale-95"
                 style={{ backgroundImage: `url(${img})` }}
               />
             </SwiperSlide>
