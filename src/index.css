@@ -1,12 +1,6 @@
 @import "tailwindcss";
-/* index.css */
-@import "slick-carousel/slick/slick.css";
-@import "slick-carousel/slick/slick-theme.css";
 
 @import "swiper/css";
 @import "swiper/css/navigation";
-
-
-body{
-    @apply pt-20
-}
+@import "swiper/css/pagination";
+@import "swiper/css/thumbs";

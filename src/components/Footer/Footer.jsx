@@ -1,71 +1,143 @@
 import React from "react";
-import { FaFacebookF, FaLinkedinIn, FaInstagram, FaYoutube } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaLinkedinIn,
+  FaInstagram,
+  FaYoutube,
+} from "react-icons/fa";
 import { FiX } from "react-icons/fi";
 import { FaRegCircle } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#2c3640] text-gray-200 py-12 mt-20">
-      <div className="max-w-6xl mx-auto px-6 md:px-12 flex flex-col md:flex-row justify-between items-start md:items-center gap-10">
-        
+    <footer className="bg-black text-gray-200 py-12">
+      <div className="max-w-6xl mx-auto px-6 md:px-5 flex flex-col md:flex-row justify-between items-start md:items-center ">
         {/* Left Side */}
         <div>
-          <h1 className="md:text-4xl font-semibold tracking-widest text-3xl">Gates Foundation</h1>
+          <h1 className="md:text-5xl font-semibold tracking-widest text-3xl text-yellow-500">
+            Gates Foundation
+          </h1>
         </div>
-
+        <div className=" border-amber-400 md:h-[320px] md:border-2 "></div>
         {/* Right Side */}
         <div className="flex flex-col gap-6 text-sm max-w-xl">
-          <p className="leading-relaxed">
-            We are a nonprofit fighting poverty, disease, and inequity around the world.
+          <p className="leading-relaxed pt-3">
+            We are a nonprofit fighting poverty, disease, and inequity around
+            the world.
           </p>
 
           {/* Social Icons */}
           <div className="flex flex-wrap gap-3 text-lg">
-            <a href="#" className="p-2 rounded-full border border-gray-400 hover:bg-gray-600"><FiX /></a>
-            <a href="#" className="p-2 rounded-full border border-gray-400 hover:bg-gray-600"><FaFacebookF /></a>
-            <a href="#" className="p-2 rounded-full border border-gray-400 hover:bg-gray-600"><FaLinkedinIn /></a>
-            <a href="#" className="p-2 rounded-full border border-gray-400 hover:bg-gray-600"><FaInstagram /></a>
-            <a href="#" className="p-2 rounded-full border border-gray-400 hover:bg-gray-600"><FaYoutube /></a>
-            <a href="#" className="p-2 rounded-full border border-gray-400 hover:bg-gray-600"><FaRegCircle /></a>
+            <a
+              href="#"
+              className="p-2 rounded-full border border-gray-400 hover:bg-yellow-500 hover:text-black "
+            >
+              <FiX />
+            </a>
+            <a
+              href="#"
+              className="p-2 rounded-full border border-gray-400 hover:bg-yellow-500 hover:text-black "
+            >
+              <FaFacebookF />
+            </a>
+            <a
+              href="#"
+              className="p-2 rounded-full border border-gray-400 hover:bg-yellow-500 hover:text-black "
+            >
+              <FaLinkedinIn />
+            </a>
+            <a
+              href="#"
+              className="p-2 rounded-full border border-gray-400 hover:bg-yellow-500 hover:text-black "
+            >
+              <FaInstagram />
+            </a>
+            <a
+              href="#"
+              className="p-2 rounded-full border border-gray-400 hover:bg-yellow-500 hover:text-black "
+            >
+              <FaYoutube />
+            </a>
+            <a
+              href="#"
+              className="p-2 rounded-full border border-gray-400 hover:bg-yellow-500 hover:text-black "
+            >
+              <FaRegCircle />
+            </a>
           </div>
 
           {/* Navigation */}
           <div className="flex flex-wrap gap-3">
-            <a href="#" className="underline">About</a>
+            <Link to='/' className="underline text-yellow-500">
+              About
+            </Link>
             <span>-</span>
-            <a href="#" className="underline">Our work</a>
+            <Link className="underline text-yellow-500">
+              Our work
+            </Link>
             <span>-</span>
-            <a href="#" className="underline">Ideas</a>
+            <Link className="underline text-yellow-500">
+              Ideas
+            </Link>
           </div>
 
           <hr className="border-gray-500 my-2" />
 
           {/* Secondary Links */}
           <div className="flex flex-wrap gap-3">
-            <a href="#" className="underline">Contact</a>
+            <Link className="underline text-yellow-500">
+              Contact
+            </Link>
             <span>-</span>
-            <a href="#" className="underline">Media Center</a>
+            <Link className="underline text-yellow-500">
+              Media Center
+            </Link>
             <span>-</span>
-            <a href="#" className="underline">Careers</a>
+            <Link className="underline text-yellow-500">
+              Careers
+            </Link>
             <span>-</span>
-            <a href="#" className="underline">Discovery Center</a>
+            <Link className="underline text-yellow-500">
+              Discovery Center
+            </Link>
             <span>-</span>
-            <a href="#" className="underline">Give with us</a>
+            <Link className="underline text-yellow-500">
+              Give with us
+            </Link>
           </div>
 
-          <a href="#" className="underline">Goalkeepers</a>
+          <Link className="underline text-yellow-500">
+            Goalkeepers
+          </Link>
 
           {/* Policies */}
           <div className="flex flex-wrap gap-3 text-gray-400">
-            <a href="#" className="underline">Reporting scams</a> |
-            <a href="#" className="underline">Ethics reporting</a> |
-            <a href="#" className="underline">Privacy & Cookies Notice</a>
+            <Link className="underline">
+              Reporting scams
+            </Link>{" "}
+            |
+            <Link className="underline">
+              Ethics reporting
+            </Link>{" "}
+            |
+            <Link className="underline">
+              Privacy & Cookies Notice
+            </Link>
           </div>
 
           <div className="flex flex-wrap gap-3 text-gray-400">
-            <a href="#" className="underline">Terms of Use</a> |
-            <a href="#" className="underline">Brand guidelines</a> |
-            <a href="#" className="underline">Vendors</a>
+            <Link className="underline">
+              Terms of Use
+            </Link>{" "}
+            |
+            <Link className="underline">
+              Brand guidelines
+            </Link>{" "}
+            |
+            <Link className="underline">
+              Vendors
+            </Link>
           </div>
 
           <p className="text-gray-400 mt-4">

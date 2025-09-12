@@ -1,36 +1,27 @@
-// components/Home/Home.jsx
-import React from "react";
-import SliderComponent from "../Slider/SliderComponent";
-import InfoSection from './InfoSection';
-import FoundationFacts from "./FoundationFacts";
-import PartnersSection from "./PartnerSection";
-import IdeasSection from "./IdeasSection";
-import Footer from "../Footer/Footer";
+import React from 'react'
+import Navbar from '../Navbar'
+import HeroSlider from '../HeroSlider'
+import AboutFoundation from './AboutFoundation'
+import Foundationfact from './Foundationfact'
+import TeamFoundation from './TeamFoundation'
+import ProfileSection from './ProfileSection'
+import EducationHome from './EducationHome'
+import HealthCareHome from './HealthCareHome'
+import Footer from '../Footer/Footer'
 
 const Home = () => {
   return (
     <div>
-      {/* Hero Slider */}
-      <div className="w-full h-screen bg-black flex justify-center items-center">
-        <SliderComponent />
-      </div>
-
-      {/* Below content */}
-      <div className="p-6">
-      <InfoSection/>
-
-      {/* foundation */}
-      <FoundationFacts/>
-
-      <PartnersSection/>
-
-      <IdeasSection/>
-
-    
-      </div>
+        <HeroSlider/>
+        <AboutFoundation/>
+        <Foundationfact/>
+        <TeamFoundation/>
+        <ProfileSection/>
+        <EducationHome/>
+        <HealthCareHome/>
         <Footer/>
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
