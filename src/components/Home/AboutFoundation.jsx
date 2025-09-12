@@ -2,20 +2,24 @@ import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules"; // ✅ autoplay module
 import "swiper/css";
+import Img1 from "../../assets/asset 8.jpeg";
+import Img2 from "../../assets/asset 9.jpeg";
+import Img3 from "../../assets/asset 10.jpeg";
+import Img4 from "../../assets/asset 11.jpeg";
+import Img5 from "../../assets/asset 12.jpeg";
+import Img6 from "../../assets/asset 13.jpeg";
+import Img7 from "../../assets/asset 14.jpeg";
+import Img8 from "../../assets/asset 15.jpeg";
+import Img9 from "../../assets/asset 18.jpeg";
+import Img10 from "../../assets/asset 17.jpeg";
+import Img11 from "../../assets/asset 72.jpeg";
+
 
 export default function AboutFoundation() {
   // Random placeholder images (Pixabay)
-  const images = [
-    "https://cdn.pixabay.com/photo/2024/04/08/14/00/buildings-8683532_1280.jpg",
-    "https://cdn.pixabay.com/photo/2023/11/28/20/43/girls-8418210_1280.jpg",
-    "https://cdn.pixabay.com/photo/2025/08/09/16/51/wildlife-9764923_1280.jpg",
-    "https://cdn.pixabay.com/photo/2024/04/08/14/00/buildings-8683532_1280.jpg",
-    "https://cdn.pixabay.com/photo/2025/08/09/16/51/wildlife-9764923_1280.jpg",
-    "https://cdn.pixabay.com/photo/2025/08/09/16/51/wildlife-9764923_1280.jpg",
-  ];
+  const images = [Img1, Img2, Img3, Img4, Img5, Img6, Img7, Img8, Img9, Img10];
 
-  // Static main image (always first one)
-  const [mainImage] = useState(images[0]);
+
 
   return (
     <section className="bg-[#3b2416] text-white py-12 px-6 md:px-16">
@@ -24,7 +28,7 @@ export default function AboutFoundation() {
         {/* Main Image (static) */}
         <div className="w-full h-[350px] rounded-lg overflow-hidden">
           <img
-            src={mainImage}
+            src={Img11}
             alt="main-img"
             className="w-full h-full object-cover rounded-lg"
           />

@@ -1,17 +1,17 @@
 import React from "react";
+import Img1 from "../../assets/asset 8.jpeg";
+import Img2 from "../../assets/asset 9.jpeg";
+import Img3 from "../../assets/asset 10.jpeg";
+import Img4 from "../../assets/asset 11.jpeg";
+import Img5 from "../../assets/asset 12.jpeg";
+import Img6 from "../../assets/asset 13.jpeg";
+import Img7 from "../../assets/asset 14.jpeg";
+import Img8 from "../../assets/asset 15.jpeg";
+import Img9 from "../../assets/asset 18.jpeg";
 
 export default function TeamFoundation() {
-  const images = [
-    "https://cdn.pixabay.com/photo/2025/08/09/16/51/wildlife-9764923_1280.jpg",
-    "https://cdn.pixabay.com/photo/2025/02/07/11/43/pumpkin-9389840_1280.jpg",
-    "https://cdn.pixabay.com/photo/2022/09/12/12/15/netherlands-7449282_1280.jpg",
-    "https://cdn.pixabay.com/photo/2025/02/07/11/43/pumpkin-9389840_1280.jpg",
-    "https://cdn.pixabay.com/photo/2022/09/12/12/15/netherlands-7449282_1280.jpg",
-    "https://cdn.pixabay.com/photo/2022/09/12/12/15/netherlands-7449282_1280.jpg",
-    "https://cdn.pixabay.com/photo/2022/09/12/12/15/netherlands-7449282_1280.jpg",
-    "https://cdn.pixabay.com/photo/2022/09/12/12/15/netherlands-7449282_1280.jpg",
-    "https://cdn.pixabay.com/photo/2025/08/09/16/51/wildlife-9764923_1280.jpg",
-  ];
+   const images = [Img1, Img2, Img3, Img4, Img5, Img6, Img7, Img8, Img9];
+ 
 
   return (
     <section className="bg-[#2b1912] text-white py-12 px-6 md:px-16">

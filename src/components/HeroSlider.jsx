@@ -6,9 +6,9 @@ import {
   FaInstagram,
   FaTwitter,
 } from "react-icons/fa";
-import Img1 from "../assets/doctor.jpg";
-import Img2 from "../assets/laboratory.jpg";
-import Img3 from "../assets/surgery.jpg";
+import Img1 from "../assets/home_bg.jpg";
+import Img2 from "../assets/education_bg.jpg";
+import Img3 from "../assets/health_bg.jpg";
 
 const slides = [
   { id: 1, img: Img1 },

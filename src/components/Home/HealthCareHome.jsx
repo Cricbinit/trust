@@ -5,12 +5,21 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 
 // Example images
-import Img1 from "../../assets/doctor.jpg";
-import Img2 from "../../assets/laboratory.jpg";
-import Img3 from "../../assets/surgery.jpg";
+import Img1 from "../../assets/asset 8.jpeg";
+import Img2 from "../../assets/asset 9.jpeg";
+import Img3 from "../../assets/asset 10.jpeg";
+import Img4 from "../../assets/asset 11.jpeg";
+import Img5 from "../../assets/asset 12.jpeg";
+import Img6 from "../../assets/asset 13.jpeg";
+import Img7 from "../../assets/asset 14.jpeg";
+import Img8 from "../../assets/asset 15.jpeg";
+import Img9 from "../../assets/asset 18.jpeg";
+import Img10 from "../../assets/asset 17.jpeg";
+
 
 export default function HealthCareHome() {
-  const images = [Img1, Img2, Img3];
+  const images = [Img1, Img2, Img3, Img4, Img5, Img6, Img7, Img8, Img9, Img10];
+
   let [readmore, setReadmore] = useState(false);
 
   const handleLearnMore = () => {
@@ -29,10 +38,9 @@ export default function HealthCareHome() {
         >
           {images.map((img, idx) => (
             <SwiperSlide key={idx}>
-              <img
-                src={img}
-                alt={`Slide ${idx}`}
-                className="w-4/5 md:w-3/4 mx-auto h-auto object-cover rounded-lg scale-95 transition-transform duration-500"
+              <div
+                className="w-[300px] h-[300px] md:w-[450px] md:h-[450px] mx-auto rounded-lg bg-center bg-cover bg-no-repeat transition-transform duration-500 scale-95"
+                style={{ backgroundImage: `url(${img})` }}
               />
             </SwiperSlide>
           ))}
@@ -40,7 +48,7 @@ export default function HealthCareHome() {
       </div>
 
       {/* Left: Text */}
-      <div className="w-full md:w-1/2 flex flex-col justify-center">
+      <div className="w-full md:w-1/2 flex flex-col justify-start">
         <h2 className="text-xl md:text-4xl font-semibold text-yellow-500 mb-4">
           HealthCare
         </h2>
@@ -52,13 +60,13 @@ export default function HealthCareHome() {
             ea commodo consequat. Duis aute irure dolor in reprehenderit in
             voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum.
+            officia deserunt mollit anim id est laborum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates, debitis quo? Fugiat quas id dignissimos iste amet, nostrum, molestias sapiente necessitatibus mollitia natus eligendi consequatur repudiandae, provident cum vitae nam.
           </p>
         ) : (
           <p className="text-gray-200 leading-relaxed mb-6 lg:text-xl">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum eum
             accusamus quam tempore maiores ab, debitis sit eaque, minus, dolorum
-            ipsum nobis delectus! Id corporis dolorem obcaecati in architecto
+            ipsum nobis delectus! Id corporis dolorem obcaecati in architecto Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, mollitia voluptatem eius ducimus, necessitatibus delectus cupiditate culpa molestias eveniet aliquam voluptate pariatur ea provident facere possimus accusamus quos! Dolorum, provident?
             vel?........
           </p>
         )}

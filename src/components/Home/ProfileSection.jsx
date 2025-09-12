@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Img1 from "../../assets/laboratory.jpg"
+import Img1 from "../../assets/asset 18.jpeg"
 import Video from "../../assets/BBS REEL WITH VOICEOVERS (1).mp4"
 
 export default function ProfileSection() {
