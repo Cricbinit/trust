@@ -35,7 +35,7 @@ export default function Navbar() {
           to="/"
           className="text-white font-bold text-2xl tracking-wide hover:opacity-80 transition"
         >
-          LOGO
+           Dambal Foundation 
         </Link>
 
         {/* Desktop Links */}

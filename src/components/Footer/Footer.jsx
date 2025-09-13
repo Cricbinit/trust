@@ -15,14 +15,14 @@ const Footer = () => {
         <div className="footer-container">
           {/* Left Section */}
           <Link className="footer-left footer-logo" to="/">
-           LOGO
+            Dambal Foundation 
           </Link>
           <div className="footer-divider"></div>
 
           {/* Center Section */}
           <div className="center_div">
             <div className="footer-info">
-              <h3 className="footer-title">Bright Business School</h3>
+              <h3 className="footer-title"> Dambal Foundation </h3>
               <p className="footer-text">
                 <a
                   href="https://www.google.com/maps?q=Gokul+Rd,+Akshay+Park,+Basaveshvar+Nagar,+Hubballi"
