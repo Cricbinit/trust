@@ -28,7 +28,7 @@ let HeroSlider = () => {
   }, []);
 
   return (
-    <div className="relative w-full h-screen overflow-hidden bg-black">
+    <div className="relative w-full h-[80vh] md:h-[90vh] lg:h-screen overflow-hidden bg-black">
       {/* Social Icons + Vertical Line */}
       <div className="absolute left-4 top-1/2 -translate-y-1/2 flex flex-col items-center gap-6 text-white text-xl z-20">
         <div className="lg:h-26 lg:w-[2px] h-12 w-[1px] bg-white"></div>
@@ -52,7 +52,7 @@ let HeroSlider = () => {
             <img
               src={slide.img}
               alt=""
-              className="w-full h-full object-cover "
+              className="w-full h-full object-cover object-center"
             />
             <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-transparent to-black/70"></div>
 
@@ -64,8 +64,6 @@ let HeroSlider = () => {
       </div>
 
       {/* Dots Right */}
-      {/* Dots Right */}
-      {/* Dots Right */}
       <div className="absolute right-6 top-1/2 -translate-y-1/2 flex flex-col gap-3 z-20">
         {slides.map((_, i) => (
           <button
@@ -73,7 +71,7 @@ let HeroSlider = () => {
             onClick={() => setCurrent(i)}
             className={`transition-all duration-300 ease-in-out rounded-2xl ${
               current === i
-                ? "w-[8px] h-17 bg-white shadow-lg"
+                ? "w-[8px] h-16 bg-white shadow-lg"
                 : "w-[10px] h-[10px] bg-gray-400 opacity-70"
             }`}
           />

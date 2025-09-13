@@ -10,9 +10,9 @@ export default function ProfileSection() {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-[#fdf8f0] py-13 lg:py-0">
+    <div className="flex justify-center items-center min-h-screen bg-[#fdf8f0] py-5 lg:py-0">
       {/* Inner container */}
-      <div className="flex flex-col md:flex-row justify-center items-center md:items-center gap-6 md:gap-12 p-6 md:p-12 ">
+      <div className="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-12 p-6  max-w-7xl w-full">
         {/* Left: Video Section */}
         <div className="w-full md:w-1/2 relative overflow-hidden rounded-lg">
           {!isPlaying ? (
@@ -20,7 +20,7 @@ export default function ProfileSection() {
               <img
                 src={Img1}
                 alt="Siddharth Dambal"
-                className="w-full h-[500px] rounded-lg object-cover transition-transform duration-300 hover:scale-105"
+                className="w-full h-[250px] sm:h-[350px] md:h-[500px] rounded-lg object-cover transition-transform duration-300 hover:scale-105"
               />
               {/* Play button overlay */}
               <div className="absolute inset-0 flex items-center justify-center">
@@ -45,18 +45,18 @@ export default function ProfileSection() {
               src={Video}
               controls
               autoPlay
-              className="w-full h-[500px] rounded-lg transition-opacity duration-500 opacity-0 animate-fadeIn"
+              className="w-full h-[250px] sm:h-[350px] md:h-[500px] rounded-lg transition-opacity duration-500 opacity-0 animate-fadeIn"
               onCanPlay={(e) => e.currentTarget.classList.remove("opacity-0")}
             />
           )}
         </div>
 
         {/* Right: Text */}
-        <div className="w-full md:w-1/2 h-[450px] flex justify-center items-start flex-col">
-          <h2 className="text-2xl md:text-5xl font-serif mb-4">
+        <div className="w-full md:w-1/2 flex justify-center items-start flex-col">
+          <h2 className="text-2xl sm:text-3xl md:text-5xl font-serif mb-4 text-center md:text-left">
             Siddharth Dambal
           </h2>
-          <p className="text-gray-700 leading-relaxed lg:text-xl">
+          <p className="text-gray-700 leading-relaxed text-sm sm:text-base lg:text-xl text-center md:text-left">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -67,8 +67,12 @@ export default function ProfileSection() {
             ad mollitia voluptates esse repellendus cum aperiam odit porro
             impedit. Architecto, dolorem ea? Iure nulla molestias corrupti porro
             aut deleniti!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius odit ab ducimus blanditiis non aperiam, consequatur ipsam ex sit nam magni odio nobis illum aut cumque quaerat culpa totam maiores?
-            Culpa assumenda repellendus, itaque error eaque dicta nesciunt, sunt amet minus quasi asperiores dolor pariatur aperiam optio fugiat vitae veniam illum labore maiores placeat obcaecati provident doloribus! Unde, numquam recusandae!
+            <br />
+            <br />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius odit
+            ab ducimus blanditiis non aperiam, consequatur ipsam ex sit nam
+            magni odio nobis illum aut cumque quaerat culpa totam maiores?
+            Culpa assumenda repellendus, itaque error eaque dicta nesciunt, sunt
           </p>
         </div>
       </div>
