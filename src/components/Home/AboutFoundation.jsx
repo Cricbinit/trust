@@ -13,7 +13,7 @@ import Img7 from "../../assets/asset 14.jpeg";
 import Img8 from "../../assets/asset 15.jpeg";
 import Img9 from "../../assets/asset 18.jpeg";
 import Img10 from "../../assets/asset 17.jpeg";
-import Img11 from "../../assets/asset 72.jpeg";
+import Girl from "../../assets/girl.jpg"
 
 export default function AboutFoundation() {
   const images = [Img1, Img2, Img3, Img4, Img5, Img6, Img7, Img8, Img9, Img10];
@@ -25,7 +25,7 @@ export default function AboutFoundation() {
         {/* Main Image */}
         <div className="w-full flex justify-center">
           <img
-            src={Img11}
+            src={Girl}
             alt="main-img"
             className="w-full sm:w-[90%] md:w-[700px] rounded-3xl object-cover max-h-[300px] md:max-h-[450px] h-[450px]"
           />

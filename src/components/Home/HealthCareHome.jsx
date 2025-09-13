@@ -20,11 +20,7 @@ import Img10 from "../../assets/asset 17.jpeg";
 export default function HealthCareHome() {
   const images = [Img1, Img2, Img3, Img4, Img5, Img6, Img7, Img8, Img9, Img10];
 
-  let [readmore, setReadmore] = useState(false);
 
-  const handleLearnMore = () => {
-    setReadmore(!readmore);
-  };
 
   return (
     <div className="flex flex-col md:flex-row gap-8 p-8 bg-[#2b1b12] text-white justify-start lg:py-20">
@@ -52,7 +48,7 @@ export default function HealthCareHome() {
         <h2 className="text-xl md:text-4xl font-semibold text-yellow-500 mb-4">
           HealthCare
         </h2>
-        {readmore ? (
+      
           <p className="text-gray-200 leading-relaxed mb-6 lg:text-xl">
             it amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -63,20 +59,13 @@ export default function HealthCareHome() {
             officia deserunt mollit anim id est laborum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates, debitis quo? Fugiat quas id dignissimos iste amet, nostrum, molestias sapiente necessitatibus mollitia natus eligendi consequatur repudiandae, provident cum vitae nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni voluptatem nemo unde praesentium. Porro beatae voluptatum cupiditate accusamus sapiente perspiciatis at, voluptate quod doloribus, voluptas debitis consequuntur molestiae nihil eum.
             A sunt aut deleniti repellendus, in voluptas quia esse doloremque rerum nobis perspiciatis maiores laboriosam obcaecati odio hic, exercitationem nesciunt quibusdam quidem neque veritatis quas ipsum mollitia quaerat dolor. Obcaecati?
           </p>
-        ) : (
-          <p className="text-gray-200 leading-relaxed mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum eum
-            accusamus quam tempore maiores ab, debitis sit eaque, minus, dolorum
-            ipsum nobis delectus! Id corporis dolorem obcaecati in architecto Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, mollitia voluptatem eius ducimus, necessitatibus delectus cupiditate culpa molestias eveniet aliquam voluptate pariatur ea provident facere possimus accusamus quos! Dolorum, provident?
-            vel?........
-          </p>
-        )}
+       
         <button
-          onClick={handleLearnMore}
+        
           className="flex gap-2 text-yellow-500 font-semibold hover:underline justify-end"
         >
           <span className="border-b border-yellow-500 w-8"></span>{" "}
-          {readmore ? "learn less" : "learn more"}
+         read more
         </button>
       </div>
     </div>

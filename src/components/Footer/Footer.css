@@ -74,11 +74,11 @@
 
 /* Links */
 .footer-links {
-  @apply flex flex-col gap-2 text-sm items-center md:items-start;
+  @apply flex flex-col gap-5 text-sm items-center md:items-start;
 }
 
 .footer-links a {
-  @apply font-semibold hover:underline;
+  @apply font-semibold text-lg ;
 }
 
 .footer-links .disabled {

@@ -8,14 +8,13 @@ import { IoLocationSharp } from "react-icons/io5";
 import { HiPhone } from "react-icons/hi";
 
 const Footer = () => {
-
   return (
     <>
       <footer className="footer">
         <div className="footer-container">
           {/* Left Section */}
           <Link className="footer-left footer-logo" to="/">
-            Dambal Foundation 
+            Dambal Foundation
           </Link>
           <div className="footer-divider"></div>
 
@@ -33,7 +32,7 @@ const Footer = () => {
                   <span className="icon">
                     <IoLocationSharp />
                   </span>
-                  Gokul Rd, Akshay Park, Basaveshvar Nagar, Hubballi
+                  Abcd Rd, Xyz Park, Basaveshvar Nagar, Hubballi
                 </a>
               </p>
 
@@ -41,7 +40,7 @@ const Footer = () => {
                 <span className="icon">
                   <HiPhone />
                 </span>
-                +91 99002 54719
+                +91 99552 XXXXX
               </p>
             </div>
 
@@ -79,9 +78,7 @@ const Footer = () => {
                 placeholder="Search"
                 className="footer-input"
               />
-              <button
-                className="footer-search-btn cursor-pointer"
-              >
+              <button className="footer-search-btn cursor-pointer">
                 <IoMdSearch /> SEARCH
               </button>
             </div>
@@ -89,35 +86,26 @@ const Footer = () => {
             {/* Links */}
             <ul className="footer-links">
               <li>
-                <Link to="/about" onClick={() => window.scrollTo(0, 0)}>
-                  About Us
+                <Link onClick={() => window.scrollTo(0, 0)}>Education</Link>
+              </li>
+              <li>
+                <Link onClick={() => window.scrollTo(0, 0)}>Healthcare</Link>
+              </li>
+              <li>
+                <Link>Program</Link>
+              </li>
+              <li>
+                <Link>About</Link>
+              </li>
+
+              <li>
+                <Link
+                  to="/donate"
+                  className="bg-yellow-400 text-black px-5 py-2 rounded font-bold hover:bg-yellow-500 transition"
+                >
+                  DONATE
                 </Link>
               </li>
-              <li>
-                <Link to="/academics" onClick={() => window.scrollTo(0, 0)}>
-                  Academics
-                </Link>
-              </li>
-              <li>
-                <a href="#">Student Life</a>
-              </li>
-              <li>
-                <a href="#">Contact Us</a>
-              </li>
-              <li>
-                <Link to="/news&events" onClick={() => window.scrollTo(0, 0)}>
-                  News & Events
-                </Link>
-              </li>
-              <li>
-                <Link to="/about" onClick={() => window.scrollTo(0, 0)}>
-                  Faculty
-                </Link>
-              </li>
-              <li className="disabled">Contact the University</li>
-              <li className="disabled">Employment Opportunities</li>
-              <li className="disabled">University Policies and Statements</li>
-              <li className="disabled">Privacy statement</li>
             </ul>
           </div>
         </div>
