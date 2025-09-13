@@ -100,7 +100,7 @@ const Footer = () => {
 
               <li>
                 <Link
-                  to="/donate"
+                  to="/"
                   className="bg-yellow-400 text-black px-5 py-2 rounded font-bold hover:bg-yellow-500 transition"
                 >
                   DONATE

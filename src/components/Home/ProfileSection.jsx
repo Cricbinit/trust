@@ -52,7 +52,7 @@ export default function ProfileSection() {
         </div>
 
         {/* Right: Text */}
-        <div className="w-full md:w-1/2 flex justify-center items-start flex-col">
+        <div className="w-full md:w-1/2 flex justify-center md:items-start items-center flex-col">
           <h2 className="text-2xl sm:text-3xl md:text-5xl font-serif mb-4 text-center md:text-left">
             Siddharth Dambal
           </h2>

@@ -28,7 +28,7 @@ let HeroSlider = () => {
   }, []);
 
   return (
-    <div className="relative w-full h-[80vh] md:h-[90vh] lg:h-screen overflow-hidden bg-black">
+    <div className="relative w-full h-[90vh] lg:h-screen overflow-hidden bg-black">
       {/* Social Icons + Vertical Line */}
       <div className="absolute left-4 top-1/2 -translate-y-1/2 flex flex-col items-center gap-6 text-white text-xl z-20">
         <div className="lg:h-26 lg:w-[2px] h-12 w-[1px] bg-white"></div>
