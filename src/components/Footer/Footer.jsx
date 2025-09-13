@@ -14,7 +14,7 @@ const Footer = () => {
       <footer className="footer">
         <div className="footer-container">
           {/* Left Section */}
-          <Link className="footer-left" to="/">
+          <Link className="footer-left footer-logo" to="/">
            LOGO
           </Link>
           <div className="footer-divider"></div>
@@ -124,7 +124,7 @@ const Footer = () => {
 
         {/* Bottom Text */}
         <div className="footer-bottom">
-          2025 Bright Business School. All rights reserved. Developed by{" "}
+          2025 Dam Foundation School. All rights reserved. Developed by{" "}
           <span>UNITECHNO</span>
         </div>
       </footer>

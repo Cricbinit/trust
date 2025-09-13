@@ -10,7 +10,7 @@ export default function ProfileSection() {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-[#fdf8f0]">
+    <div className="flex justify-center items-center min-h-screen bg-[#fdf8f0] py-13 lg:py-0">
       {/* Inner container */}
       <div className="flex flex-col md:flex-row justify-center items-center md:items-center gap-6 md:gap-12 p-6 md:p-12 ">
         {/* Left: Video Section */}

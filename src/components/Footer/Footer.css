@@ -15,7 +15,7 @@
 }
 
 .footer-logo {
-  @apply w-60 mx-auto;
+  @apply w-60 mx-auto text-5xl text-[#2b1b12];
 }
 
 /* Center Section */
@@ -47,7 +47,7 @@
 
 /* Divider */
 .footer-divider {
-  @apply hidden md:block h-32 w-[1px] bg-white opacity-50 mx-6;
+  @apply hidden md:block h-44 w-[2px] bg-[#2b1b12] opacity-50 mx-6;
 }
 
 /* Right Section */
@@ -87,7 +87,7 @@
 
 /* Bottom */
 .footer-bottom {
-  @apply text-center text-[16px] mt-10 text-white;
+  @apply text-center text-[18px] mt-10 text-red-950;
 }
 
 .footer-bottom span {
