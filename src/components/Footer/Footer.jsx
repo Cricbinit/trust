@@ -1,150 +1,135 @@
-import React from "react";
-import {
-  FaFacebookF,
-  FaLinkedinIn,
-  FaInstagram,
-  FaYoutube,
-} from "react-icons/fa";
-import { FiX } from "react-icons/fi";
-import { FaRegCircle } from "react-icons/fa";
+import React, { useState } from "react";
+import { FaYoutube, FaInstagram, FaLinkedinIn, FaSearch } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import "./Footer.css";
 import { Link } from "react-router-dom";
+import { IoMdSearch } from "react-icons/io";
+import { IoLocationSharp } from "react-icons/io5";
+import { HiPhone } from "react-icons/hi";
 
-export default function Footer() {
+const Footer = () => {
+
   return (
-    <footer className="bg-black text-gray-200 py-12">
-      <div className="max-w-6xl mx-auto px-6 md:px-5 flex flex-col md:flex-row justify-between items-start md:items-center ">
-        {/* Left Side */}
-        <div>
-          <h1 className="md:text-4xl tracking-widest text-3xl text-yellow-500 lg:text-5xl">
-            Gates Foundation
-          </h1>
-        </div>
-        <div className=" border-amber-400 lg:h-[320px] lg:border-2 "></div>
-        {/* Right Side */}
-        <div className="flex flex-col gap-6 text-sm max-w-xl">
-          <p className="leading-relaxed pt-3">
-            We are a nonprofit fighting poverty, disease, and inequity around
-            the world.
-          </p>
-
-          {/* Social Icons */}
-          <div className="flex flex-wrap gap-3 text-lg">
-            <a
-              href="#"
-              className="p-2 rounded-full border border-gray-400 hover:bg-yellow-500 hover:text-black "
-            >
-              <FiX />
-            </a>
-            <a
-              href="#"
-              className="p-2 rounded-full border border-gray-400 hover:bg-yellow-500 hover:text-black "
-            >
-              <FaFacebookF />
-            </a>
-            <a
-              href="#"
-              className="p-2 rounded-full border border-gray-400 hover:bg-yellow-500 hover:text-black "
-            >
-              <FaLinkedinIn />
-            </a>
-            <a
-              href="#"
-              className="p-2 rounded-full border border-gray-400 hover:bg-yellow-500 hover:text-black "
-            >
-              <FaInstagram />
-            </a>
-            <a
-              href="#"
-              className="p-2 rounded-full border border-gray-400 hover:bg-yellow-500 hover:text-black "
-            >
-              <FaYoutube />
-            </a>
-            <a
-              href="#"
-              className="p-2 rounded-full border border-gray-400 hover:bg-yellow-500 hover:text-black "
-            >
-              <FaRegCircle />
-            </a>
-          </div>
-
-          {/* Navigation */}
-          <div className="flex flex-wrap gap-3">
-            <Link to='/' className="underline text-yellow-500">
-              About
-            </Link>
-            <span>-</span>
-            <Link className="underline text-yellow-500">
-              Our work
-            </Link>
-            <span>-</span>
-            <Link className="underline text-yellow-500">
-              Ideas
-            </Link>
-          </div>
-
-          <hr className="border-gray-500 my-2" />
-
-          {/* Secondary Links */}
-          <div className="flex flex-wrap gap-3">
-            <Link className="underline text-yellow-500">
-              Contact
-            </Link>
-            <span>-</span>
-            <Link className="underline text-yellow-500">
-              Media Center
-            </Link>
-            <span>-</span>
-            <Link className="underline text-yellow-500">
-              Careers
-            </Link>
-            <span>-</span>
-            <Link className="underline text-yellow-500">
-              Discovery Center
-            </Link>
-            <span>-</span>
-            <Link className="underline text-yellow-500">
-              Give with us
-            </Link>
-          </div>
-
-          <Link className="underline text-yellow-500">
-            Goalkeepers
+    <>
+      <footer className="footer">
+        <div className="footer-container">
+          {/* Left Section */}
+          <Link className="footer-left" to="/">
+           LOGO
           </Link>
+          <div className="footer-divider"></div>
 
-          {/* Policies */}
-          <div className="flex flex-wrap gap-3 text-gray-400">
-            <Link className="underline">
-              Reporting scams
-            </Link>{" "}
-            |
-            <Link className="underline">
-              Ethics reporting
-            </Link>{" "}
-            |
-            <Link className="underline">
-              Privacy & Cookies Notice
-            </Link>
+          {/* Center Section */}
+          <div className="center_div">
+            <div className="footer-info">
+              <h3 className="footer-title">Bright Business School</h3>
+              <p className="footer-text">
+                <a
+                  href="https://www.google.com/maps?q=Gokul+Rd,+Akshay+Park,+Basaveshvar+Nagar,+Hubballi"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2  transition"
+                >
+                  <span className="icon">
+                    <IoLocationSharp />
+                  </span>
+                  Gokul Rd, Akshay Park, Basaveshvar Nagar, Hubballi
+                </a>
+              </p>
+
+              <p className="footer-text">
+                <span className="icon">
+                  <HiPhone />
+                </span>
+                +91 99002 54719
+              </p>
+            </div>
+
+            <div className="footer-social">
+              <a href="https://www.youtube.com/@BrightBusinessSchool24">
+                <FaYoutube />
+              </a>
+              <a
+                href="https://x.com/bright_b_school
+"
+              >
+                <FaXTwitter />
+              </a>
+              <a href="https://www.instagram.com/bright_business_school/">
+                <FaInstagram />
+              </a>
+              <a
+                href="https://www.linkedin.com/company/bright-business-school-hubli/?lipi=urn%3Ali%3Apage%3Ad_flagship3_company%3BZGH7aR0dSly3YsiUvhiNIA%3D%3D
+"
+              >
+                <FaLinkedinIn />
+              </a>
+            </div>
           </div>
 
-          <div className="flex flex-wrap gap-3 text-gray-400">
-            <Link className="underline">
-              Terms of Use
-            </Link>{" "}
-            |
-            <Link className="underline">
-              Brand guidelines
-            </Link>{" "}
-            |
-            <Link className="underline">
-              Vendors
-            </Link>
-          </div>
+          {/* Divider */}
+          <div className="footer-divider"></div>
 
-          <p className="text-gray-400 mt-4">
-            © 2025 Gates Foundation. All rights reserved.
-          </p>
+          {/* Right Section */}
+          <div className="footer-right">
+            {/* Search */}
+            <div className="footer-search">
+              <input
+                type="text"
+                placeholder="Search"
+                className="footer-input"
+              />
+              <button
+                className="footer-search-btn cursor-pointer"
+              >
+                <IoMdSearch /> SEARCH
+              </button>
+            </div>
+
+            {/* Links */}
+            <ul className="footer-links">
+              <li>
+                <Link to="/about" onClick={() => window.scrollTo(0, 0)}>
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link to="/academics" onClick={() => window.scrollTo(0, 0)}>
+                  Academics
+                </Link>
+              </li>
+              <li>
+                <a href="#">Student Life</a>
+              </li>
+              <li>
+                <a href="#">Contact Us</a>
+              </li>
+              <li>
+                <Link to="/news&events" onClick={() => window.scrollTo(0, 0)}>
+                  News & Events
+                </Link>
+              </li>
+              <li>
+                <Link to="/about" onClick={() => window.scrollTo(0, 0)}>
+                  Faculty
+                </Link>
+              </li>
+              <li className="disabled">Contact the University</li>
+              <li className="disabled">Employment Opportunities</li>
+              <li className="disabled">University Policies and Statements</li>
+              <li className="disabled">Privacy statement</li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </footer>
+
+        {/* Bottom Text */}
+        <div className="footer-bottom">
+          2025 Bright Business School. All rights reserved. Developed by{" "}
+          <span>UNITECHNO</span>
+        </div>
+      </footer>
+    </>
   );
-}
+};
+
+export default Footer;

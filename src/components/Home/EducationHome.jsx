@@ -39,14 +39,15 @@ export default function EducationHome() {
             ea commodo consequat. Duis aute irure dolor in reprehenderit in
             voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, consectetur temporibus pariatur nam alias deleniti eaque illo atque facere velit mollitia! Facere aperiam eligendi magnam repellat magni natus quis at.
+            officia deserunt mollit anim id est laborum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, consectetur temporibus pariatur nam alias deleniti eaque illo atque facere velit mollitia! Facere aperiam eligendi magnam repellat magni natus quis at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam optio aut dicta atque repudiandae officia possimus nihil sit voluptatum debitis iusto explicabo voluptas quas omnis dolore, tempora quisquam? Saepe, blanditiis!
+            Consectetur repellat ab neque eaque quasi quibusdam placeat perspiciatis possimus. Eos eaque maiores, molestias aut ut atque modi. Doloremque, quis. Dicta laborum aperiam aspernatur fuga facilis aliquam distinctio dolore ratione.
           </p>
         ) : (
           <p className="text-gray-200 leading-relaxed mb-6 lg:text-xl">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum eum
             accusamus quam tempore maiores ab, debitis sit eaque, minus, dolorum
             ipsum nobis delectus! Id corporis dolorem obcaecati in architecto
-            vel Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum quasi amet aliquam recusandae, fugit laboriosam blanditiis, ex facilis facere architecto, veniam adipisci dolorem natus deserunt quo! Quia excepturi quam beatae.?........
+            vel Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum quasi amet aliquam recusandae, fugit laboriosam blanditiis, ex facilis facere architecto, veniam adipisci dolorem natus deserunt quo! Quia excepturi quam beatae. ?........
           </p>
         )}
         <button

@@ -20,7 +20,7 @@ export default function ProfileSection() {
               <img
                 src={Img1}
                 alt="Siddharth Dambal"
-                className="w-full h-[400px] rounded-lg object-cover transition-transform duration-300 hover:scale-105"
+                className="w-full h-[500px] rounded-lg object-cover transition-transform duration-300 hover:scale-105"
               />
               {/* Play button overlay */}
               <div className="absolute inset-0 flex items-center justify-center">
@@ -45,7 +45,7 @@ export default function ProfileSection() {
               src={Video}
               controls
               autoPlay
-              className="w-full h-[400px] rounded-lg transition-opacity duration-500 opacity-0 animate-fadeIn"
+              className="w-full h-[500px] rounded-lg transition-opacity duration-500 opacity-0 animate-fadeIn"
               onCanPlay={(e) => e.currentTarget.classList.remove("opacity-0")}
             />
           )}
@@ -67,6 +67,8 @@ export default function ProfileSection() {
             ad mollitia voluptates esse repellendus cum aperiam odit porro
             impedit. Architecto, dolorem ea? Iure nulla molestias corrupti porro
             aut deleniti!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius odit ab ducimus blanditiis non aperiam, consequatur ipsam ex sit nam magni odio nobis illum aut cumque quaerat culpa totam maiores?
+            Culpa assumenda repellendus, itaque error eaque dicta nesciunt, sunt amet minus quasi asperiores dolor pariatur aperiam optio fugiat vitae veniam illum labore maiores placeat obcaecati provident doloribus! Unde, numquam recusandae!
           </p>
         </div>
       </div>

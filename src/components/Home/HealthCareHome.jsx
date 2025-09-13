@@ -60,7 +60,8 @@ export default function HealthCareHome() {
             ea commodo consequat. Duis aute irure dolor in reprehenderit in
             voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates, debitis quo? Fugiat quas id dignissimos iste amet, nostrum, molestias sapiente necessitatibus mollitia natus eligendi consequatur repudiandae, provident cum vitae nam.
+            officia deserunt mollit anim id est laborum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates, debitis quo? Fugiat quas id dignissimos iste amet, nostrum, molestias sapiente necessitatibus mollitia natus eligendi consequatur repudiandae, provident cum vitae nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni voluptatem nemo unde praesentium. Porro beatae voluptatum cupiditate accusamus sapiente perspiciatis at, voluptate quod doloribus, voluptas debitis consequuntur molestiae nihil eum.
+            A sunt aut deleniti repellendus, in voluptas quia esse doloremque rerum nobis perspiciatis maiores laboriosam obcaecati odio hic, exercitationem nesciunt quibusdam quidem neque veritatis quas ipsum mollitia quaerat dolor. Obcaecati?
           </p>
         ) : (
           <p className="text-gray-200 leading-relaxed mb-6 lg:text-xl">

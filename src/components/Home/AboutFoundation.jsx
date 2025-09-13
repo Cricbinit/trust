@@ -19,21 +19,21 @@ export default function AboutFoundation() {
   const images = [Img1, Img2, Img3, Img4, Img5, Img6, Img7, Img8, Img9, Img10];
 
   return (
-    <section className="bg-[#3b2416] text-white py-12 px-6 md:px-16">
+    <section className="bg-[#3b2416] text-white  px-6 md:px-16">
       {/* Main Content Row */}
-      <div className="grid md:grid-cols-2 gap-10 items-start  h-[90vh]">
+      <div className="grid md:grid-cols-2 gap-10 items-center  h-[90vh]">
         {/* Main Image (static) */}
         <div className="w-full h-auto rounded-lg overflow-hidden flex justify-center">
           <img
             src={Img11}
             alt="main-img"
-            className="w-full md:w-[700px] md:h-[500px] h-auto object-cover rounded-lg"
+            className="w-full md:w-[700px] md:h-[500px] h-auto object-cover rounded-4xl"
           />
         </div>
 
         {/* Text Content */}
         <div className="flex flex-col justify-center ">
-          <h2 className="text-yellow-400 text-sm font-bold  lg:text-4xl">
+          <h2 className="text-yellow-400 text-xl font-semibold  lg:text-4xl">
             About Dambal Foundation
           </h2>
           <p className="text-gray-200 leading-relaxed text-sm md:text-lg">
@@ -51,12 +51,14 @@ export default function AboutFoundation() {
             consequatur officia quia? Beatae et, illo distinctio incidunt
             maiores molestias! Doloremque porro quibusdam est possimus itaque
             explicabo, voluptates ducimus autem quis amet. Nostrum!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam eveniet veritatis facilis debitis consequatur est officiis accusantium. Asperiores ipsum enim rem nobis laboriosam laborum doloremque ea magni quam non. Provident?
+            Tempora aliquid qui non culpa minima autem officia, dolo.
           </p>
         </div>
       </div>
 
       {/* Thumbnail Slider - Full Width */}
-      <div className="mt-8">
+      <div className="pb-5">
         <Swiper
           modules={[Autoplay]}
           loop={true}
@@ -77,7 +79,7 @@ export default function AboutFoundation() {
               <img
                 src={img}
                 alt={`thumb-${idx}`}
-                className="w-full h-[220px] object-cover rounded-lg"
+                className="w-full h-[220px] object-cover rounded-4xl"
               />
             </SwiperSlide>
           ))}

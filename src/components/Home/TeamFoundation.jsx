@@ -38,20 +38,21 @@ export default function TeamFoundation() {
             anim id est laborum
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos cum tempore in quia debitis incidunt totam pariatur quo. Illum sit adipisci dolorum, a repellendus obcaecati animi quaerat nam temporibus tempora.
             Libero ab mollitia necessitatibus delectus dicta blanditiis consectetur eius voluptates accusamus quam aspernatur nemo sit, doloremque beatae eveniet qui animi nam. Consequuntur ex eligendi perspiciatis dicta expedita labore. Consectetur, quisquam?
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus nostrum at voluptate.
           </p>
         </div>
 
         {/* Right Image Grid */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 gap-2">
           {images.map((img, idx) => (
             <div
               key={idx}
-              className="w-full aspect-square rounded-lg overflow-hidden bg-black flex justify-center items-center"
+              className="w-full aspect-square  overflow-hidden bg-black flex justify-center items-center h-[190px]"
             >
               <img
                 src={img}
                 alt={`img-${idx}`}
-                className="w-full h-full object-cover transition-transform duration-500 ease-in-out transform hover:scale-110"
+                className="w-full h-full object-cover transition-transform duration-500 ease-in-out transform hover:scale-110 "
               />
             </div>
           ))}
