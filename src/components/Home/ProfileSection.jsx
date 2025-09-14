@@ -53,10 +53,10 @@ export default function ProfileSection() {
 
         {/* Right: Text */}
         <div className="w-full md:w-1/2 flex justify-center md:items-start items-center flex-col">
-          <h2 className="text-2xl sm:text-3xl md:text-5xl font-serif mb-4 text-center md:text-left">
+          <h2 className="text-2xl sm:text-3xl md:text-5xl font-serif mb-4 text-justify">
             Siddharth Dambal
           </h2>
-          <p className="text-gray-700 leading-relaxed text-sm sm:text-base lg:text-xl text-center md:text-left">
+          <p className="text-gray-700 leading-relaxed text-sm sm:text-base lg:text-xl text-justify md:text-justify">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut

@@ -21,7 +21,7 @@ export default function TeamFoundation() {
           <h2 className="text-yellow-400 text-2xl md:text-4xl font-bold mb-6">
             Team Dambal Foundation
           </h2>
-          <p className="text-gray-200 leading-relaxed text-sm md:text-lg">
+          <p className="text-gray-200 leading-relaxed text-sm md:text-lg text-justify">
             it amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim
             veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex

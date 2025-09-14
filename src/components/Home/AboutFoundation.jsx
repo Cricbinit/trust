@@ -36,7 +36,7 @@ export default function AboutFoundation() {
           <h2 className="text-yellow-400 text-xl font-semibold mb-4 lg:text-4xl">
             About Dambal Foundation
           </h2>
-          <p className="text-gray-200 leading-relaxed text-sm md:text-lg max-h-[300px] md:max-h-none overflow-y-auto md:overflow-visible px-1 md:px-0">
+          <p className="text-gray-200 leading-relaxed text-sm md:text-lg max-h-[300px] md:max-h-none overflow-y-auto md:overflow-visible px-1 md:px-0 text-justify">
             It amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim
             veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex

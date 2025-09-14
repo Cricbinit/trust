@@ -49,7 +49,7 @@ export default function HealthCareHome() {
           HealthCare
         </h2>
       
-          <p className="text-gray-200 leading-relaxed mb-6 lg:text-xl">
+          <p className="text-gray-200 leading-relaxed mb-6 lg:text-xl text-justify">
             it amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim
             veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
